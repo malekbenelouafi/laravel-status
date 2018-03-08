@@ -1,0 +1,42 @@
+{
+    "name": "malekbenelouafi/laravel-status",
+    "description": "Laravel status a simple, automatic Status check for any model based on Laravel.",
+    "type": "library",
+    "keywords": ["status", "check-status", "active", "inactive"],
+    "homepage": "https://github.com/malekbenelouafi/laravel-status",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben el ouafi Malek",
+            "email": "malekbelouafi@gmail.com",
+            "homepage": "https://malek.benelouafi.tn"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/malekbenelouafi/laravel-status/issues",
+        "source": "https://github.com/malekbenelouafi/laravel-status"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "illuminate/database": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"4.8.*"
+    },
+    "autoload": {
+        "psr-4": {"Malekbenelouafi\\LaravelStatus\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Malekbenelouafi\\LaravelStatus\\Test\\": "tests/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
